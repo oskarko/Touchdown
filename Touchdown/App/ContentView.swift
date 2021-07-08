@@ -30,7 +30,6 @@ struct ContentView: View {
                         FeatureTabView()
                             .padding(.vertical, 20)
                             .frame(height: 300)
-                            //.listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                         
                         CategoryGridView()
                         
@@ -42,6 +41,8 @@ struct ContentView: View {
                             } // Loop
                         }) // Grid
                         .padding(15)
+                        
+                        BrandGridView()
                         
                         FooterView()
                             .padding(.horizontal)
