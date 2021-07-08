@@ -19,6 +19,10 @@
 		E244BD09269726420025B8AE /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E244BD08269726420025B8AE /* FooterView.swift */; };
 		E244BD0B26972BFF0025B8AE /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E244BD0A26972BFF0025B8AE /* NavigationBarView.swift */; };
 		E244BD0D26972CDF0025B8AE /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E244BD0C26972CDF0025B8AE /* LogoView.swift */; };
+		E244BD0F269735BA0025B8AE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E244BD0E269735BA0025B8AE /* Player.swift */; };
+		E244BD11269735EB0025B8AE /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E244BD10269735EB0025B8AE /* CodableBundleExtension.swift */; };
+		E244BD13269736720025B8AE /* FeatureItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E244BD12269736720025B8AE /* FeatureItemView.swift */; };
+		E244BD15269736D30025B8AE /* FeatureTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E244BD14269736D30025B8AE /* FeatureTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		E244BD08269726420025B8AE /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		E244BD0A26972BFF0025B8AE /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		E244BD0C26972CDF0025B8AE /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		E244BD0E269735BA0025B8AE /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E244BD10269735EB0025B8AE /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		E244BD12269736720025B8AE /* FeatureItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureItemView.swift; sourceTree = "<group>"; };
+		E244BD14269736D30025B8AE /* FeatureTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +76,12 @@
 		E244BCE6269723D70025B8AE /* Touchdown */ = {
 			isa = PBXGroup;
 			children = (
+				E244BCFF269725580025B8AE /* App */,
+				E244BD00269725620025B8AE /* View */,
+				E244BD03269725740025B8AE /* Model */,
+				E244BCFE269724A30025B8AE /* Data */,
 				E244BD052697257F0025B8AE /* Utility */,
 				E244BD04269725780025B8AE /* Extension */,
-				E244BD03269725740025B8AE /* Model */,
-				E244BD00269725620025B8AE /* View */,
-				E244BCFE269724A30025B8AE /* Data */,
-				E244BCFF269725580025B8AE /* App */,
 				E244BCEB269723DA0025B8AE /* Assets.xcassets */,
 				E244BCF0269723DA0025B8AE /* Info.plist */,
 				E244BCED269723DA0025B8AE /* Preview Content */,
@@ -124,6 +132,8 @@
 				E244BD08269726420025B8AE /* FooterView.swift */,
 				E244BD0A26972BFF0025B8AE /* NavigationBarView.swift */,
 				E244BD0C26972CDF0025B8AE /* LogoView.swift */,
+				E244BD12269736720025B8AE /* FeatureItemView.swift */,
+				E244BD14269736D30025B8AE /* FeatureTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -138,6 +148,7 @@
 		E244BD03269725740025B8AE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E244BD0E269735BA0025B8AE /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,6 +156,7 @@
 		E244BD04269725780025B8AE /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E244BD10269735EB0025B8AE /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -230,10 +242,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E244BD13269736720025B8AE /* FeatureItemView.swift in Sources */,
+				E244BD15269736D30025B8AE /* FeatureTabView.swift in Sources */,
+				E244BD11269735EB0025B8AE /* CodableBundleExtension.swift in Sources */,
 				E244BCEA269723D70025B8AE /* ContentView.swift in Sources */,
 				E244BD0D26972CDF0025B8AE /* LogoView.swift in Sources */,
 				E244BD09269726420025B8AE /* FooterView.swift in Sources */,
 				E244BCE8269723D70025B8AE /* TouchdownApp.swift in Sources */,
+				E244BD0F269735BA0025B8AE /* Player.swift in Sources */,
 				E244BD072697259B0025B8AE /* Const.swift in Sources */,
 				E244BD0B26972BFF0025B8AE /* NavigationBarView.swift in Sources */,
 			);
