@@ -41,6 +41,7 @@
 		E24C90C926988023000DF94E /* RatingSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C90C826988023000DF94E /* RatingSizesDetailView.swift */; };
 		E24C90CB269882FE000DF94E /* QuantityFavDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C90CA269882FE000DF94E /* QuantityFavDetailView.swift */; };
 		E24C90CD26988483000DF94E /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C90CC26988483000DF94E /* AddToCartDetailView.swift */; };
+		E24C90CF269885E9000DF94E /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C90CE269885E9000DF94E /* Shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		E24C90C826988023000DF94E /* RatingSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingSizesDetailView.swift; sourceTree = "<group>"; };
 		E24C90CA269882FE000DF94E /* QuantityFavDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavDetailView.swift; sourceTree = "<group>"; };
 		E24C90CC26988483000DF94E /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
+		E24C90CE269885E9000DF94E /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 			children = (
 				E244BD062697259B0025B8AE /* Const.swift */,
 				E24C90C626987E79000DF94E /* CustomShape.swift */,
+				E24C90CE269885E9000DF94E /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				E24C90C926988023000DF94E /* RatingSizesDetailView.swift in Sources */,
 				E244BD1D269743BD0025B8AE /* SectionView.swift in Sources */,
 				E24C90C726987E79000DF94E /* CustomShape.swift in Sources */,
+				E24C90CF269885E9000DF94E /* Shop.swift in Sources */,
 				E244BD19269741500025B8AE /* CategoryItemView.swift in Sources */,
 				E244BD0B26972BFF0025B8AE /* NavigationBarView.swift in Sources */,
 				E244BD172697404B0025B8AE /* Category.swift in Sources */,
